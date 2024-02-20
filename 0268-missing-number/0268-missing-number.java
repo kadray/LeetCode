@@ -6,8 +6,6 @@ class Solution {
             sum_i+=nums[i];
             sum+=i+1;
         }
-        System.out.println(sum);
-        System.out.println(sum_i);
         return sum-sum_i;
     }
 }
